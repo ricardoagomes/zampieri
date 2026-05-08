@@ -191,20 +191,63 @@ footer strong{color:var(--gold);}
 <div class="container">
   <div class="stats-grid">
     <div class="stat-card"><div class="stat-icon">👥</div><div class="stat-value">15</div><div class="stat-label">Participantes</div></div>
-    <div class="stat-card"><div class="stat-icon">💰</div><div class="stat-value">R$ 6.114</div><div class="stat-label">Total despesas</div></div>
+    <div class="stat-card"><div class="stat-icon">💰</div><div class="stat-value">R$ 6.214</div><div class="stat-label">Total despesas</div></div>
     <div class="stat-card"><div class="stat-icon">🍺</div><div class="stat-value">R$ 872</div><div class="stat-label">Cerveja (7 pessoas)</div></div>
-    <div class="stat-card"><div class="stat-icon">🧾</div><div class="stat-value">R$ 407,62</div><div class="stat-label">Cota por pessoa</div></div>
+    <div class="stat-card"><div class="stat-icon">🧾</div><div class="stat-value">R$ 414,29</div><div class="stat-label">Cota por pessoa</div></div>
     <div class="stat-card"><div class="stat-icon">🍻</div><div class="stat-value">R$ 124,57</div><div class="stat-label">Cota cerveja</div></div>
   </div>
+
   <div class="section-title">Selecione uma pessoa <em>para ver o resumo</em></div>
   <div class="person-grid" id="personGrid"></div>
   <div id="panels"></div>
+
+  <!-- CARD COMPROVANTES -->
+  <div style="background:var(--white);border:1px solid var(--border);border-radius:14px;overflow:hidden;margin-bottom:22px;box-shadow:var(--shadow);">
+    <div style="background:var(--cream2);padding:12px 16px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px;">
+      <span style="font-size:1.1rem">📸</span>
+      <span style="font-family:'Playfair Display',serif;font-weight:700;font-size:.95rem;color:var(--brown-d);">Comprovantes de despesas</span>
+    </div>
+    <div style="padding:12px 14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;" id="comprovantesGrid">
+      <a href="https://ricardoagomes.github.io/zampieri/Juliano%201.jpeg" target="_blank" style="display:flex;align-items:center;gap:8px;background:var(--cream);border:1px solid var(--border);border-radius:10px;padding:10px 12px;text-decoration:none;color:var(--brown-d);">
+        <span style="font-size:1.1rem">🖼️</span>
+        <div><div style="font-size:.82rem;font-weight:700;">Juliano</div><div style="font-size:.7rem;color:var(--muted);">comprovante 1</div></div>
+      </a>
+      <a href="https://ricardoagomes.github.io/zampieri/Juliano%202.jpeg" target="_blank" style="display:flex;align-items:center;gap:8px;background:var(--cream);border:1px solid var(--border);border-radius:10px;padding:10px 12px;text-decoration:none;color:var(--brown-d);">
+        <span style="font-size:1.1rem">🖼️</span>
+        <div><div style="font-size:.82rem;font-weight:700;">Juliano</div><div style="font-size:.7rem;color:var(--muted);">comprovante 2</div></div>
+      </a>
+      <a href="https://ricardoagomes.github.io/zampieri/Ricardo%201.jpeg" target="_blank" style="display:flex;align-items:center;gap:8px;background:var(--cream);border:1px solid var(--border);border-radius:10px;padding:10px 12px;text-decoration:none;color:var(--brown-d);">
+        <span style="font-size:1.1rem">🖼️</span>
+        <div><div style="font-size:.82rem;font-weight:700;">Ricardo</div><div style="font-size:.7rem;color:var(--muted);">comprovante 1</div></div>
+      </a>
+      <a href="https://ricardoagomes.github.io/zampieri/Ricardo%202.jpeg" target="_blank" style="display:flex;align-items:center;gap:8px;background:var(--cream);border:1px solid var(--border);border-radius:10px;padding:10px 12px;text-decoration:none;color:var(--brown-d);">
+        <span style="font-size:1.1rem">🖼️</span>
+        <div><div style="font-size:.82rem;font-weight:700;">Ricardo</div><div style="font-size:.7rem;color:var(--muted);">comprovante 2</div></div>
+      </a>
+      <a href="https://ricardoagomes.github.io/zampieri/Ricardo%203.jpeg" target="_blank" style="display:flex;align-items:center;gap:8px;background:var(--cream);border:1px solid var(--border);border-radius:10px;padding:10px 12px;text-decoration:none;color:var(--brown-d);">
+        <span style="font-size:1.1rem">🖼️</span>
+        <div><div style="font-size:.82rem;font-weight:700;">Ricardo</div><div style="font-size:.7rem;color:var(--muted);">comprovante 3</div></div>
+      </a>
+      <a href="https://ricardoagomes.github.io/zampieri/Ricardo%204.jpeg" target="_blank" style="display:flex;align-items:center;gap:8px;background:var(--cream);border:1px solid var(--border);border-radius:10px;padding:10px 12px;text-decoration:none;color:var(--brown-d);">
+        <span style="font-size:1.1rem">🖼️</span>
+        <div><div style="font-size:.82rem;font-weight:700;">Ricardo</div><div style="font-size:.7rem;color:var(--muted);">comprovante 4</div></div>
+      </a>
+      <a href="https://ricardoagomes.github.io/zampieri/Viviane%201.jpeg" target="_blank" style="display:flex;align-items:center;gap:8px;background:var(--cream);border:1px solid var(--border);border-radius:10px;padding:10px 12px;text-decoration:none;color:var(--brown-d);">
+        <span style="font-size:1.1rem">🖼️</span>
+        <div><div style="font-size:.82rem;font-weight:700;">Viviane</div><div style="font-size:.7rem;color:var(--muted);">comprovante 1</div></div>
+      </a>
+      <a href="https://ricardoagomes.github.io/zampieri/Viviane%202.jpeg" target="_blank" style="display:flex;align-items:center;gap:8px;background:var(--cream);border:1px solid var(--border);border-radius:10px;padding:10px 12px;text-decoration:none;color:var(--brown-d);">
+        <span style="font-size:1.1rem">🖼️</span>
+        <div><div style="font-size:.82rem;font-weight:700;">Viviane</div><div style="font-size:.7rem;color:var(--muted);">comprovante 2</div></div>
+      </a>
+    </div>
+  </div>
 </div>
 
 <footer><strong>Família Zampieri</strong> · Tiradentes 2026 · Que venham mais feriados juntos! 🌿</footer>
 
 <script>
-const cota=6114.28/15, cotaB=872/7;
+const cota=6214.28/15, cotaB=872/7;
 
 // PIX keys per creditor
 const pixKeys={
@@ -221,6 +264,7 @@ const expenses=[
   {quem:'Ricardo',oque:'Mercado',v:134.99},{quem:'Ricardo',oque:'Mercado',v:289.41},
   {quem:'Ricardo',oque:'Mercado',v:177},{quem:'Viviane',oque:'Limpeza',v:825},
   {quem:'Fabio',oque:'Mercado',v:250},{quem:'Luciano',oque:'Despesas',v:500},
+  {quem:'Vera',oque:'Mercado',v:100},
 ];
 
 // Beer payers (owe R$124,57 each to Ricardo for the beer purchase)
@@ -229,21 +273,21 @@ const beerPayers=['Viviane','Luciano','Fabio','Rafael','Thiago','Daniel'];
 // (Ricardo himself is also a beer payer but offsets against himself)
 
 const bal={
-  Ricardo: {rec:1795.74, saldo:1388.12, beer:true,  para:null,      val:0,      nota:'Pagou as despesas do grupo e a cerveja. Aguarda receber.'},
-  Natalia: {rec:0,       saldo:-407.62, beer:false, para:'Ricardo', val:407.62},
-  Viviane: {rec:3264.21, saldo:2856.59, beer:true,  para:null,      val:0},
-  Luciano: {rec:500,     saldo:92.38,   beer:true,  para:'Viviane', val:32.19},
-  Vera:    {rec:0,       saldo:-407.62, beer:false, para:'Viviane', val:407.62},
-  Fabio:   {rec:250,     saldo:-282.19, beer:true,  para:'Ricardo', val:277.22}, // 282.19 - 4.97 = 277.22
-  Cintia:  {rec:0,       saldo:-407.62, beer:false, para:'Viviane', val:412.59}, // +4.97 from Fabio adjustment
-  Denise:  {rec:0,       saldo:-407.62, beer:false, para:'Ricardo', val:407.62},
-  Juliano: {rec:304.33,  saldo:-103.29, beer:false, para:'Ricardo', val:103.29},
-  Cristina:{rec:0,       saldo:-407.62, beer:false, para:'Ricardo', val:407.62},
-  Rafael:  {rec:0,       saldo:-407.62, beer:true,  para:'Ricardo', val:532.19},
-  'Ana Paula':{rec:0,    saldo:-407.62, beer:false, para:'Viviane', val:407.62},
-  Thiago:  {rec:0,       saldo:-407.62, beer:true,  para:'Viviane', val:532.19},
-  Lisa:    {rec:0,       saldo:-407.62, beer:false, para:'Viviane', val:407.62},
-  Daniel:  {rec:0,       saldo:-407.62, beer:true,  para:'Viviane', val:532.19},
+  Ricardo:    {rec:1795.74, saldo:2128.88,  beer:true,  para:null,      val:0},
+  Natalia:    {rec:0,       saldo:-414.29,  beer:false, para:'Ricardo', val:414.29},
+  Viviane:    {rec:3264.21, saldo:2725.35,  beer:true,  para:null,      val:0},
+  Luciano:    {rec:500,     saldo:-38.86,   beer:true,  para:'Viviane', val:38.86},
+  Vera:       {rec:100,     saldo:-314.29,  beer:false, para:'Viviane', val:314.29},
+  Fabio:      {rec:250,     saldo:-288.86,  beer:true,  para:'Ricardo', val:237.22},
+  Cintia:     {rec:0,       saldo:-414.29,  beer:false, para:'Viviane', val:465.93},
+  Denise:     {rec:0,       saldo:-414.29,  beer:false, para:'Ricardo', val:414.29},
+  Juliano:    {rec:304.33,  saldo:-109.96,  beer:false, para:'Ricardo', val:109.96},
+  Cristina:   {rec:0,       saldo:-414.29,  beer:false, para:'Ricardo', val:414.29},
+  Rafael:     {rec:0,       saldo:-538.86,  beer:true,  para:'Ricardo', val:538.86},
+  'Ana Paula':{rec:0,       saldo:-414.29,  beer:false, para:'Viviane', val:414.29},
+  Thiago:     {rec:0,       saldo:-538.86,  beer:true,  para:'Viviane', val:538.86},
+  Lisa:       {rec:0,       saldo:-414.29,  beer:false, para:'Viviane', val:414.29},
+  Daniel:     {rec:0,       saldo:-538.86,  beer:true,  para:'Viviane', val:538.86},
 };
 
 const people=['Ricardo','Natalia','Viviane','Luciano','Vera','Fabio','Cintia','Denise','Juliano','Cristina','Rafael','Ana Paula','Thiago','Lisa','Daniel'];
@@ -415,7 +459,7 @@ function buildPerson(name){
     <div class="expenses-card">
       <div class="expenses-card-header">📊 Composição do acerto</div>
       <table><thead><tr><th>Tipo</th><th>Descrição</th><th>Valor</th></tr></thead><tbody>
-        <tr><td><span class="badge exp">🧾 Cota</span></td><td>Divisão geral (R$ 6.114,28 ÷ 15)</td><td class="amount-cell">${fmt(cota)}</td></tr>
+        <tr><td><span class="badge exp">🧾 Cota</span></td><td>Divisão geral (R$ 6.214,28 ÷ 15)</td><td class="amount-cell">${fmt(cota)}</td></tr>
         ${beRow}${myRows}
         ${totalPago>0?`<tr style="background:var(--green-l)"><td colspan="2" style="font-weight:700;color:var(--green)">Total que pagou</td><td class="amount-cell" style="color:var(--green)">- ${fmt(totalPago)}</td></tr>`:''}
       </tbody></table>
